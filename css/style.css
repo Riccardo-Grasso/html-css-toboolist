@@ -20,7 +20,6 @@ ul {
 li {
     margin-top: 8px;
     margin-bottom: 8px;
-    padding-top: 5px;;
 }
     
 #main-brand-container {
@@ -37,7 +36,27 @@ li {
     vertical-align: middle;
     margin-left: 14px;
     font-size: 50px;
-  }
+}
+
+#cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+#ok {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
 
 .container {
     display: block;
