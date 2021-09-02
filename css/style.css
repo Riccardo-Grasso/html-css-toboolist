@@ -10,7 +10,17 @@ body {
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 5px;;
 }
     
 #main-brand-container {
@@ -61,22 +71,74 @@ h2 {
     border-radius: 3px;
     height: 30px;
     padding-left: 10px;
-    padding-right: 10px;;
+    padding-right: 10px;
 }
 
 .add-section {
+    background-color: white;
+    color: gray;
+    border: 1px solid grey;
     border-radius: 3px;
-    text-align: center;
     height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .list-container {
     margin-right: 17%;
     margin-left: 17%;
     padding-left: 2%;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     margin-bottom: 20px;
-    border-top: 20px
+    border-top: 20px;
     margin-top: 5px;
     padding-top: 10px
+}
+
+.editorial {
+    background-color: #53A6E8;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+}
+
+.goals {
+    background-color: #A16DE2;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+}
+
+.recruiting {
+    background-color: #6DC4B0;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+}
+
+.mobile {
+    background-color: #EFA03A;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+}
+
+.website {
+    background-color: #D8649F;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+}
+
+.sales {
+    background-color: #A9C92F;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
 }
