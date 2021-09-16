@@ -1,57 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <title>Toboolist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
     <header>
         <div class="container white-background">
-            <div id="main-brand-container">
-                <img src="img/Logo.png" alt="Logo Toboolist" id="main-logo">
-                <h2 id="main-brand">Toboolist</h2>
+            <div class="main-brand-container">
+                    <img class="logo-img absolute-position" src="img/Logo.png" alt="Logo Toboolist">
+                    <h1 class="absolute-position">Toboolist</h1>
             </div>
         </div>
-
     </header>
 
 
     <main>
         <!-- sezione Task e Section -->
-        <div class="add-container">
+        <div class="add-container container-large">
             <div class="add">
-                <input type="button" value="Add Task" class="button">
-                <input type="button" value="Add Section" class="add-section">
+                <input type="button" value="+ Add Task" class="button">
+                <input type="button" value="+ Add Section" class="add-section">
             </div>
         </div>
         
-        <div class="list-container white-background">
+        <div class="list-container white-background container-large">
+
             <!-- Prima lista -->
-            <h2> &#9660; New Task</h2>
-            <ul>
-                <li><span id="ok">&#10003;</span> Quarterly Newsletter <span class="editorial">Editorial</span></li>
-            </ul>
+            <div class="list" tabindex="0">
+                <i class="fas fa-sort-down toggle-icon"></i><h2 class="text-shadow"> New Task</h2>
+
+                <div class="list-item">
+                    <ul>
+                        <li><span id="ok">&#10003;</span> Quarterly Newsletter <span class="editorial">Editorial</span></li>
+                    </ul> 
+                </div>
+                
+            </div>
+            
 
              <!-- Seconda lista -->
-            <h2> &#9660; Today</h2>
-            <ul>
-                <li><span id="ok">&#10003;</span> Recruiting blog post <span class="editorial">Editorial</span></li>
-                <li><span id="ok">&#10003;</span> Mobile app launch <span class="goals">Q1 Goals</span></li>
-                <li><span id="cross">&#10007;</span> Interview John H.  <span class="recruiting">Recruiting</span></li>
-                <li><span id="ok">&#10003;</span> Summit update to mobile storefronts  <span class="mobile">Mobile</span></li>
-            </ul>
+
+             <div class="list" tabindex="0">
+                <i class="fas fa-sort-down toggle-icon"></i><h2 class="text-shadow"> Today</h2>
+
+                <div class="list-item">
+                    <ul>
+                        <li><span id="ok">&#10003;</span> Recruiting blog post <span class="editorial">Editorial</span></li>
+                        <li><span id="ok">&#10003;</span> Mobile app launch <span class="goals">Q1 Goals</span></li>
+                        <li><span id="cross">&#10007;</span> Interview John H.  <span class="recruiting">Recruiting</span></li>
+                        <li><span id="ok">&#10003;</span> Summit update to mobile storefronts  <span class="mobile">Mobile</span></li>
+                    </ul>
+                </div>
+                
+             </div>
+            
 
              <!-- Terza lista -->
-            <h2> &#9660; Upcoming</h2>
-            <ul>
-                <li><span id="cross">&#10007;</span> Schedule meeting whit Alex</li>
-                <li><span id="ok">&#10003;</span> Homepage refresh  <span class="website">Website</span></li>
-                <li><span id="ok">&#10003;</span> Onboard new Sales team members  <span class="sales">Sales</span></li>
-                <li><span id="ok">&#10003;</span> Review editorial calendar <span class="editorial">Editorial</span></li>
-            </ul>
+
+             <div class="list" tabindex="0">
+                <i class="fas fa-sort-down toggle-icon"></i><h2 class="text-shadow"> Upcoming</h2>
+                <div class="list-item">
+                    <ul>
+                        <li><span id="cross">&#10007;</span> Schedule meeting whit Alex</li>
+                        <li><span id="ok">&#10003;</span> Homepage refresh  <span class="website">Website</span></li>
+                        <li><span id="ok">&#10003;</span> Onboard new Sales team members  <span class="sales">Sales</span></li>
+                        <li><span id="ok">&#10003;</span> Review editorial calendar <span class="editorial">Editorial</span></li>
+                    </ul>
+                </div>
+                
+             </div>
+            
         </div>
     </main>
     
